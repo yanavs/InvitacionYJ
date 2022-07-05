@@ -5,6 +5,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #74610d;
   text-decoration: none;
+  list-style: none;
 }
 
 header img {
@@ -32,22 +33,22 @@ header img {
   text-align: center;
 }
 
-.celebremos, .dresscode {
+.celebremos, .dresscode, .regalo {
   background-color: #d3c2a4;
   text-align: center;
 }
 
-.celebremos img, .dresscode img {
+.celebremos img, .dresscode img, .regalo img {
   width: 8rem;
   margin: 1rem;
 }
 
-.celebremos h1, .dresscode h1 {
+.celebremos h1, .dresscode h1, .regalo h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
 }
 
-.celebremos p, .dresscode p {
+.celebremos p, .dresscode p, .regalo p {
   padding: 1rem;
   color: #74610d;
   font-family: 'Montserrat', sans-serif;
@@ -55,7 +56,7 @@ header img {
   margin: 0px;
 }
 
-.celebremos .btn, .dresscode .btn {
+.celebremos .btn, .dresscode .btn, .regalo .btn {
   background-color: white;
   opacity: 90%;
   color: #74610d;
@@ -63,7 +64,38 @@ header img {
   margin: 0.5rem;
 }
 
+.celebremos .btn:focus, .dresscode .btn:focus, .regalo .btn:focus {
+  background-color: white;
+  color: #74610d;
+}
+
+.celebremos .btn:active, .dresscode .btn:active, .regalo .btn:active {
+  background-color: white;
+  color: #74610d;
+  border: #74610d;
+}
+
+.celebremos .btn:hover, .dresscode .btn:hover, .regalo .btn:hover {
+  background-color: white;
+  color: #74610d;
+  border: #74610d;
+}
+
 .dresscode {
   background-color: white;
+}
+
+.regalo .modal-body ul {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.regalo .modal-header {
+  background-color: #d3c2a4;
+}
+
+.regalo .modal-footer button {
+  background-color: #d3c2a4;
+  color: white;
 }
 /*# sourceMappingURL=estilo.css.map */
