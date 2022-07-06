@@ -70,18 +70,21 @@ header {
         color: $tono-oscuro;
         border: $tono-oscuro;
         margin: 0.5rem;
-        &:focus{
+
+        &:focus {
             background-color: white;
-            color:$tono-oscuro;
+            color: $tono-oscuro;
         }
-        &:active{
+
+        &:active {
             background-color: white;
-            color:$tono-oscuro;
+            color: $tono-oscuro;
             border: $tono-oscuro
         }
-        &:hover{
+
+        &:hover {
             background-color: white;
-            color:$tono-oscuro;
+            color: $tono-oscuro;
             border: $tono-oscuro
         }
     }
@@ -94,25 +97,71 @@ header {
 
 .regalo {
     @extend .celebremos;
-    .modal-body{
-        ul{
-        text-align: center;
-        margin: 0px auto;
+
+    .modal-body {
+        ul {
+            text-align: center;
+            margin: 0px auto;
+        }
     }
-    }
-.modal-header{
+
+    .modal-header {
         background-color: #d3c2a4;
     }
-.modal-footer{
-    button{
-        background-color: #d3c2a4;
-        color: white;
+
+    .modal-footer {
+        button {
+            background-color: #d3c2a4;
+            color: white;
+        }
     }
 }
-}
-.instagram{
+
+.instagram {
     background-color: white;
-    img{
-    width: 100%;
+
+    img {
+        width: 100%;
+    }
 }
+
+.container {
+text-align: center;
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+    .nosotros {
+        display: flex;
+        flex-wrap: wrap;
+
+        @extend .celebremos;
+        background-color: white;
+
+        img {
+            width: 6rem;
+            padding: 0.5rem;
+            margin: 0px auto;
+            transition: transform .2s;
+
+            &:hover {
+                transform: scale(2);
+            }
+        }
+
+       
+    }
+}
+
+@media screen and (min-width: 440px) {
+    .container {
+        .nosotros {
+            img {
+                width: 16rem;
+                margin:3rem;
+
+            }
+        }
+    }
 }
