@@ -70,6 +70,7 @@ header {
         color: $tono-oscuro;
         border: $tono-oscuro;
         margin: 0.5rem;
+        margin-bottom: 2rem;
 
         &:focus {
             background-color: white;
@@ -126,12 +127,14 @@ header {
 }
 
 .container {
-text-align: center;
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-}
+    text-align: center;
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
     .nosotros {
         display: flex;
         flex-wrap: wrap;
@@ -150,14 +153,32 @@ h1 {
             }
         }
 
-       
     }
 }
 
-footer{
-    img{
-        width: 100%;
-    }
+.footer {
+margin: 0% auto;
+text-align: center;
+position: relative;
+img{
+    z-index: 1;
+    width: 100%;
+
+}
+
+.btn-primary{
+
+    z-index: 3;
+    background-color: #d3c2a4;
+    color: #74610d;
+    border: #74610d;
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+
+}
 }
 
 @media screen and (min-width: 440px) {
@@ -165,7 +186,7 @@ footer{
         .nosotros {
             img {
                 width: 16rem;
-                margin:3rem;
+                margin: 3rem;
 
             }
         }
