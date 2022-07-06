@@ -134,6 +134,10 @@ header img {
   transform: scale(2);
 }
 
+footer img {
+  width: 100%;
+}
+
 @media screen and (min-width: 440px) {
   .container .nosotros img {
     width: 16rem;
